@@ -17,7 +17,7 @@ while not got_file and attempts_no < 12:
     
     url = f"https://publicdata.landregistry.gov.uk/market-trend-data/house-price-index-data/UK-HPI-full-file-{year_month}.csv"
     
-    directory = "data/source/"
+    directory = "data/raw/"
     filename = f"UK-HPI-full-file-{year_month}.csv"
     dest_path = os.path.join(directory, filename)
     os.makedirs(directory, exist_ok=True)
