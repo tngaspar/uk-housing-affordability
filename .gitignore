@@ -3,6 +3,9 @@ data/
 downloads/
 *.csv
 
+# Test files
+test.ipynb
+
 # Python-generated files
 __pycache__/
 *.py[oc]
